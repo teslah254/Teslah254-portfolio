@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tesla | Nurse x Tech Enthusiast</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #0f172a, #1e293b);
+    }
+    .highlight {
+      color: #38bdf8;
+    }
+  </style>
+</head>
+<body class="text-white font-sans">
+  <header class="bg-gray-800 p-6 shadow-md">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">Teslah254</h1>
+      <nav class="space-x-6">
+        <a href="#about" class="hover:text-cyan-300">About</a>
+        <a href="#projects" class="hover:text-cyan-300">Projects</a>
+        <a href="#skills" class="hover:text-cyan-300">Skills</a>
+        <a href="#journey" class="hover:text-cyan-300">Journey</a>
+        <a href="#contact" class="hover:text-cyan-300">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="text-center py-20 px-6">
+    <h2 class="text-4xl font-bold mb-4">👋 I'm Tesla</h2>
+    <p class="text-xl max-w-2xl mx-auto">A <span class="highlight">final year nursing student</span>, passionate about <span class="highlight">AI in healthcare</span>, <span class="highlight">cybersecurity</span>, and <span class="highlight">creative design</span>. Bridging medicine, code, and art one project at a time.</p>
+  </section>
+
+  <section id="about" class="bg-gray-800 py-16 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-6">🧠 About Me</h3>
+      <p class="mb-4">I'm currently conducting research on how artificial intelligence can improve patient care in nursing for my final year project at Mount Kenya University.</p>
+      <p class="mb-4">I'm learning about AI agents, automation, and general AI concepts. Cybersecurity and pentesting are hobbies that fuel my curiosity. I have intermediate skills in HTML, Python, and SQL, and I’m exploring JavaScript and R. I’m also a hobbyist graphic designer with a love for clean and impactful visuals.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="py-16 px-6">
+    <div class="max-w-5xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-8">🛠️ Skills & Tools</h3>
+      <div class="grid md:grid-cols-2 gap-6 text-left">
+        <div>
+          <h4 class="text-xl font-bold mb-2">Healthcare & Research</h4>
+          <ul class="list-disc list-inside text-gray-300">
+            <li>Patient Care, Triage, Nursing Diagnosis</li>
+            <li>AI in Clinical Decision-Making</li>
+            <li>Research Methodologies & Nursing Informatics</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-xl font-bold mb-2">Tech & Creative Stack</h4>
+          <div class="flex flex-wrap gap-2">
+            <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge">
+            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge">
+            <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL Badge">
+            <img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=red" alt="TryHackMe Badge">
+            <img src="https://img.shields.io/badge/Hack%20The%20Box-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black" alt="Hack The Box Badge">
+            <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma Badge">
+            <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva Badge">
+            <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white" alt="Photoshop Badge">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="journey" class="bg-gray-800 py-16 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-8">📅 My Journey</h3>
+      <div class="space-y-4 text-left">
+        <p>🎓 <strong>Started Nursing at MKU</strong> — built compassion and care foundations</p>
+        <p>🤖 <strong>Discovered AI & Tech</strong> — fell in love with intelligent systems</p>
+        <p>🐍 <strong>Built first Python projects</strong> — automation & healthcare helpers</p>
+        <p>🔒 <strong>Dove into Cybersecurity</strong> — TryHackMe, Hack The Box labs</p>
+        <p>🧠 <strong>Current: Final Year Research</strong> — AI + Nursing Innovation</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-16 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-8">🚀 Featured Projects</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-gray-700 p-6 rounded-xl shadow-lg">
+          <h4 class="text-xl font-bold mb-2">AI in Nursing Research</h4>
+          <p class="text-sm">Exploring machine learning tools to assist in clinical decision-making, diagnosis support, and patient monitoring in real-world nursing settings.</p>
+        </div>
+        <div class="bg-gray-700 p-6 rounded-xl shadow-lg">
+          <h4 class="text-xl font-bold mb-2">Cybersecurity Labs</h4>
+          <p class="text-sm">Hands-on ethical hacking using platforms like TryHackMe and Hack The Box to understand system vulnerabilities and defenses.</p>
+        </div>
+        <div class="bg-gray-700 p-6 rounded-xl shadow-lg">
+          <h4 class="text-xl font-bold mb-2">Creative Design Gallery</h4>
+          <p class="text-sm">Collection of posters, logos, and social media visuals created using Figma, Canva, and Adobe Photoshop.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-gray-800 py-16 px-6">
+    <div class="max-w-2xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-4">📡 Connect with Me</h3>
+      <p class="mb-4">Whether it's about nursing tech, AI, or design collabs — let’s talk!</p>
+      <div class="flex justify-center space-x-6 mb-4">
+        <a href="https://github.com/teslah254" target="_blank" class="hover:text-cyan-300">GitHub</a>
+        <a href="https://instagram.com/its_t.e.s.l.a" target="_blank" class="hover:text-cyan-300">Instagram</a>
+        <a href="https://www.hackthebox.eu/profile/teslah" target="_blank" class="hover:text-cyan-300">Hack The Box</a>
+        <a href="https://linkedin.com/in/teslah254" target="_blank" class="hover:text-cyan-300">LinkedIn</a>
+        <a href="https://twitter.com/its_t_e_s_l_a" target="_blank" class="hover:text-cyan-300">Twitter</a>
+      </div>
+      <p class="text-sm text-gray-400">📧 Reach me via email: <a href="mailto:pauljohns255@gmail.com" class="hover:underline text-cyan-400">pauljohns255@gmail.com</a></p>
+      <div class="mt-6">
+        <a href="/Teslah254_CV.pdf" class="bg-cyan-500 px-4 py-2 rounded hover:bg-cyan-600">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-6 text-sm text-gray-400">Built with ❤️ by Teslah254 — Where healthcare meets code & creativity<br>“The future of healthcare belongs to those who merge compassion with code.”</footer>
+</body>
+</html>
